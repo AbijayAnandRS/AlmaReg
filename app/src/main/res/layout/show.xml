@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.6"
+        android:background="#D3D3D3"
+        android:id="@+id/ftyu"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Abijay Anand RS"
+            android:textSize="30dp"
+            android:id="@+id/memname"
+            android:layout_gravity="bottom"
+            android:textColor="#FFFFFF"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+
+        android:layout_height="300dp"
+        android:layout_weight="0.5"
+        android:text="SEND MESSAGE"
+        android:id="@+id/chatting"
+        android:gravity="center"
+        android:background="@drawable/zselectorbtw"
+        android:textColor="@drawable/ztextwtb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ftyu" />
+
+
+
+
+</RelativeLayout>

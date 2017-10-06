@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+
+
+        android:title="Find Us"
+        app:itemBackground="@color/colorPrimary"/>
+    <item
+        android:id="@+id/youtube"
+
+
+        android:title="Watch Us"
+        app:itemBackground="@color/colorPrimary"/>
+    <item
+        android:id="@+id/twitter"
+
+
+        android:title="Tweet Us"
+        app:itemBackground="@color/colorPrimary"/>
+    <item
+        android:id="@+id/official"
+
+
+        android:title="Official Website"
+        app:itemBackground="@color/colorPrimary"/>
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/imaaa"
+        android:src="@mipmap/ic_launcher"
+        android:background="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:padding="6dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="30 LIKES"
+        android:id="@+id/likes"
+        android:layout_alignBottom="@+id/imaaa"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/lsvw4"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list1"
+        android:divider="@drawable/hai"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/imaaa"
+        android:layout_above="@+id/ivop" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/ivop"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:id="@+id/ed1111"
+        android:background="#FFF"
+        android:hint="Type your comment..."
+        android:layout_below="@+id/lsvw4"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/likes"
+        android:layout_toRightOf="@+id/ivop"
+        android:layout_toEndOf="@+id/ivop" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/sendfgf"
+        android:layout_marginBottom="20dp"
+        android:background="@mipmap/button"
+        android:layout_alignBottom="@+id/ed1111"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

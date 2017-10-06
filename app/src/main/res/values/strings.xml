@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TEAM ALMA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">816380008463985</string>
+    <string name="facebook_app_id1">1688764778069967</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.abijayana.user.almareg.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_weight="0.9">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Click here to continue......"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center"
+                        android:textSize="18dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/safty"/>
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@mipmap/loading"
+                        android:id="@+id/ldngpass"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/butusercrte"
+                        android:text="CONTINUE"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

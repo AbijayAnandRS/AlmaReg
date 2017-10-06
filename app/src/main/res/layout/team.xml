@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="PUBLICITY"
+                android:gravity="center"
+                android:id="@+id/publi"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/comnt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="WEBDESIGN"
+                android:id="@+id/webd"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/comnt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="DND"
+                android:id="@+id/dnd"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/comnt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="SPONSORSHIP"
+                android:textColor="#FFFFFF"
+                android:id="@+id/spons"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/comnt"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="EVENTS"
+                android:id="@+id/evnts"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/comnt"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
